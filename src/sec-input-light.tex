@@ -21,24 +21,27 @@ monitor, similar to how we printed the analog reading from the grayscale
 sensor in Lab 2. After setting up the circuit and programming the
 Arduino, open the serial monitor and note how the sensor reading varies
 when the device is covered with your hand or when the device is placed
-under a bright light.
+under a bright light. The reading from the sensor should get larger when
+the device is in a dark environment, and should get smaller when the
+device is in a bright environment.
 
 \vspace{0.1in}
-\begin{minipage}{0.49\tw}
+\begin{minipage}[t]{0.49\tw}
+  \vspace{0pt}
+
   \includegraphics[width=\tw]{input-light-annotated.svg.pdf}
 \end{minipage}
 \hfill
-\begin{minipage}{0.49\tw}
+\begin{minipage}[t]{0.49\tw}
+  \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
     int pin_light = 5;
 
-    void setup()
-    {
+    void setup() {
       Serial.begin(9600);
     }
 
-    void loop()
-    {
+    void loop() {
       int light_level = analogRead( pin_light );
       Serial.println( light_level );
       delay(1000);
