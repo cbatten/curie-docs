@@ -1,0 +1,48 @@
+%-------------------------------------------------------------------------
+% Design Project Input/Output Module Description
+%-------------------------------------------------------------------------
+
+\section{Light Input Module}
+\label{sec-input-light}
+
+This input module enables your IoT device to sense how much light is
+reaching the device. The module uses a small photo-resistor which is
+similar in spirit to the potentiometer you experimented with in Lab 2.
+For the potentiometer, the resistance varied as you twisted the knob on
+the robot. For the photo-resistor, the resistance will vary based on how
+much light reaches the device. The Arduino cannot directly sense
+resistance, but it can sense an analog input voltage. We will use a
+simple circuit called a voltage divider so that the voltage across the
+photo-resistor is proportional to the resistance.
+
+A sample circuit and Arduino code is shown below to get you started. This
+code will print the analog reading from the photo-resistor on the serial
+monitor, similar to how we printed the analog reading from the grayscale
+sensor in Lab 2. After setting up the circuit and programming the
+Arduino, open the serial monitor and note how the sensor reading varies
+when the device is covered with your hand or when the device is placed
+under a bright light.
+
+\vspace{0.1in}
+\begin{minipage}{0.49\tw}
+  \includegraphics[width=\tw]{input-light-annotated.svg.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.49\tw}
+  \begin{Verbatim}[gobble=3,fontsize=\small]
+    int pin_light = 5;
+
+    void setup()
+    {
+      Serial.begin(9600);
+    }
+
+    void loop()
+    {
+      int light_level = analogRead( pin_light );
+      Serial.println( light_level );
+      delay(1000);
+    }
+  \end{Verbatim}
+\end{minipage}
+
