@@ -2,30 +2,33 @@
 % Design Project Input/Output Module Description
 %-------------------------------------------------------------------------
 
+\clearpage
 \section{Printer Output Module}
 \label{sec-output-printer}
 
-This printer output module enables your IoT device to print a paper copy of
-collected/processed data for the end-user.  The printer is a thermal receipt
-printer, similar to what is in most retail stores.  A thermal printer works by
-selectively heating thermochromic paper (the receipt paper).  Heated sections of
-paper turn black, creating the desired text or image, such as a barcode.
+This printer output module enables your IoT device to print a paper copy
+of collected/processed data for the end-user. The printer is a thermal
+receipt printer, similar to what is in most retail stores. A thermal
+printer works by selectively heating special thermochromic paper. Heated
+sections of paper turn black, creating the desired text or image, such as
+a barcode.
 
-We'll be using the Arduino to control the printer.  However, because the
-printer's thermal print head needs to be hot to work, it requires its own power
-supply.  The printer comes with its own wall-wart power supply, which you should
-plug into the barrel connector to screw-down terminal converter.  Ensure that
-positive (red) is connected to the \texttt{+} and negative (black) is connected
-to the \texttt{-} as shown below:
+We'll be using the Arduino to control the printer. However, because the
+printer's thermal print head needs to be hot to work, it requires its own
+power supply. The printer comes with its own wall-wart power supply,
+which you should plug into the barrel connector to screw-down terminal
+converter. Ensure that positive (red) is connected to the \texttt{+} and
+negative (black) is connected to the \texttt{-} as shown below:
 
 \begin{center}
 \includegraphics[width=2in]{components_poweradapt.jpg}
 \end{center}
 
-The printer has small plugs on the bottom: a 2-pin (power) and a 3-pin (data).
-You'll hook up the power cable to the 2-pin plug (red/black) and hook that up to
-the barrel connector converter (shown above).  The data cable connects 3-pin
-connector on one end and to the Arduino for control, as shown below:
+The printer has small plugs on the bottom: a 2-pin (power) and a 3-pin
+(data). You'll hook up the power cable to the 2-pin plug (red/black) and
+hook that up to the barrel connector converter (shown above). The data
+cable connects 3-pin connector on one end and to the Arduino for control,
+as shown below:
 
 \begin{itemize}
 \item Green: Digital Pin 5
@@ -62,7 +65,7 @@ Using the printer is as simple as follows:
       // Some functions will feed a line when called to 'solidify' setting.
       // This is normal.
 
-      //Hello World        
+      // Hello World
       print.println("Hello World!")
 
       // Set text justification (right, center, left) -- accepts 'L', 'C', 'R'

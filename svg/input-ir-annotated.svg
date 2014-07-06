@@ -17,7 +17,7 @@
    height="215"
    viewBox="0 0 256.00014 172"
    id="svg2988"
-   inkscape:version="0.48.4 r9943 custom"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="input-ir-annotated.svg">
   <metadata
      id="metadata5643">
@@ -67,15 +67,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="684"
+     inkscape:window-width="1258"
+     inkscape:window-height="1373"
      id="namedview5639"
      showgrid="false"
-     inkscape:zoom="1.466808"
-     inkscape:cx="81.903797"
-     inkscape:cy="117.26538"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:zoom="2.584375"
+     inkscape:cx="160"
+     inkscape:cy="107.5"
+     inkscape:window-x="1291"
+     inkscape:window-y="7"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2988" />
   <g
@@ -173,6 +173,7 @@
        style="fill:#383838" />
   </g>
 </g>
+
 
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
@@ -12076,9 +12077,9 @@
        sodipodi:role="line"
        id="tspan9923"
        x="137.58728"
-       y="12.223042">To Analog Input 0</tspan></text>
+       y="12.223042">To Analog Input 5</tspan></text>
   <rect
-     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.40000129;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.60000087;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
      id="rect9925"
      width="63.247856"
      height="18.511566"
