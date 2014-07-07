@@ -11,8 +11,23 @@ object placed \wu{10--80}{cm} in front of it, using the same Sharp
 GP2Y0A21 Distance Sensor you possibly experimented with in Lab~2. The
 sensor works by bouncing infrared (IR) light off objects and sensing the
 angle at which it returns; a process called \IT{triangulation}. The
-output of the sensor is a distance, derived from the angle of reflected
-light.
+figure below to the left shows IR light bounced off an object placed at
+two different distances -- notice how knowing the angle of reflected
+light tells you the object's distance. The output of the sensor is a
+voltage, corresponding to the distance derived from the angle of
+reflected light. Moving an object to different distances changes the
+output voltage as shown in the figure below to the right. Can you see
+why the range of this device is chosen to be \wu{10--80}{cm}?
+
+\vspace{0.1in}
+\begin{minipage}[t]{0.49\tw}
+  \includegraphics[width=\tw]{ir-sensor-triangulation.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\tw}
+  \includegraphics[width=\tw]{ir-sensor-response-curve.jpg}
+\end{minipage}
+\vspace{0.1in}
 
 A sample circuit and Arduino code is shown below to get you started.
 There is no need for any extra components; we directly connect the yellow
@@ -24,12 +39,6 @@ Arduino, open the serial monitor and experiment with placing objects
 (e.g., a book) at various distances away from the front of the sensor.
 The reading from the sensor should be larger for objects farther away
 from the sensor and smaller for objects closer to the sensor.
-
-Questions: (1) What happens if the object is further than 80cm (max
-range) from the sensor? (2) What happens if the object is closer than
-10cm (min range) from the sensor? (3) The sensor is not outputting
-distance in any particular unit. How can we convert the readings into
-centimeters?
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
@@ -55,4 +64,11 @@ centimeters?
     }
   \end{Verbatim}
 \end{minipage}
+\vspace{0.1in}
+
+Questions: (1) What happens if the object is further than 80cm (max
+range) from the sensor? (2) What happens if the object is closer than
+10cm (min range) from the sensor? (3) The sensor is not outputting
+distance in any particular unit. How can we convert the readings into
+centimeters?
 
