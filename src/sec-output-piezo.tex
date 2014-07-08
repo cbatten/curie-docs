@@ -65,6 +65,8 @@ different notes across two octaves.
 \begin{minipage}[t]{0.49\tw}
   \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
+    // Part 1: Playing a note
+
     int pin_piezo = 3;
 
     void setup() {
@@ -72,10 +74,6 @@ different notes across two octaves.
     }
 
     void loop() {
-
-      //-------------------------------------
-      // Part 1: Playing a note
-      //-------------------------------------
 
       // Play an A4 ( 440Hz, 2272us period ).
       // Dividing the period by 2 makes 1136us --
@@ -88,9 +86,19 @@ different notes across two octaves.
         delayMicroseconds( 1136 );
       }
 
-      //-------------------------------------
-      // Part 2: Playing a tune
-      //-------------------------------------
+  \end{Verbatim}
+  \vspace{0.1in}
+  \begin{Verbatim}[gobble=3,fontsize=\small]
+
+    // Part 2: Playing a tune
+
+    int pin_piezo = 3;
+
+    void setup() {
+      pinMode( pin_piezo, OUTPUT );
+    }
+
+    void loop() {
 
       // Set up the tune. The length is the
       // number of notes. The notes array
