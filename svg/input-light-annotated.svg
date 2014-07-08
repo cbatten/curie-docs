@@ -143,6 +143,7 @@
 </g>
 
 
+
 7   <g
    style="stroke-width:0"
    id="pin1B"
@@ -10758,12 +10759,12 @@
 </g>
   </g>
   <rect
-     y="103.52389"
-     x="94.793594"
+     y="58.723854"
+     x="126.79362"
      height="30.64558"
      width="52.803883"
      id="rect37463"
-     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000186;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
      style="fill:none;stroke:#8c8c8c;stroke-width:2.09519982;stroke-linecap:round;stroke-linejoin:round"
      inkscape:connector-curvature="0"
@@ -11120,9 +11121,9 @@
        sodipodi:role="line"
        id="tspan28677">Power/ Ground</tspan></text>
   <rect
-     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000186;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-miterlimit:4;stroke-dasharray:none"
+     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect37413"
-     width="52.803883"
+     width="140.48807"
      height="30.64558"
      x="34.793491"
      y="103.52389" />
@@ -11130,44 +11131,40 @@
      sodipodi:linespacing="104%"
      id="text28683"
      y="115.97173"
-     x="61.181763"
+     x="105.98181"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
        y="115.97173"
-       x="61.181763"
-       id="tspan28685"
-       sodipodi:role="line">Resistor</tspan><tspan
-       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="127.64429"
-       x="61.181763"
+       x="105.98181"
        sodipodi:role="line"
-       id="tspan37410">(10k<tspan
-   style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;font-family:Palatino;-inkscape-font-specification:Palatino"
-   id="tspan37408"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times;-inkscape-font-specification:Times"
-   id="tspan37503">Ω</tspan>)</tspan></tspan></text>
+       id="tspan37410">Resistor (10kΩ)</tspan><tspan
+       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
+       y="127.61974"
+       x="105.98181"
+       sodipodi:role="line"
+       id="tspan9024">Brown-Black-Orange-Gold</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
-     x="121.18186"
-     y="117.29104"
+     x="153.1819"
+     y="72.49102"
      id="text37429"
      sodipodi:linespacing="104%"><tspan
        sodipodi:role="line"
        id="tspan37431"
-       x="121.18186"
-       y="117.29104"
+       x="153.1819"
+       y="72.49102"
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">Photo-</tspan><tspan
        id="tspan37459"
        sodipodi:role="line"
-       x="121.18186"
-       y="128.93904"
+       x="153.1819"
+       y="84.13903"
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">Resistor</tspan><tspan
        id="tspan37433"
        sodipodi:role="line"
-       x="121.18186"
-       y="140.58707"
+       x="153.1819"
+       y="95.787048"
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino" /></text>
   <path
      sodipodi:nodetypes="cc"
@@ -11177,7 +11174,7 @@
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 112.79498,103.09192 91.246543,87.845385"
+     d="m 126.28486,71.906186 -24.49935,6.252955"
      id="path37453"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />

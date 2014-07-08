@@ -174,6 +174,7 @@
   </g>
 </g>
 
+
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
    id="g3011">
@@ -12429,33 +12430,31 @@
      sodipodi:nodetypes="cc" />
   <rect
      y="100.42354"
-     x="131.04105"
+     x="124.64104"
      height="30.64558"
-     width="52.803883"
+     width="129.52925"
      id="rect10878"
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <text
      xml:space="preserve"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
-     x="157.42937"
+     x="189.4294"
      y="112.87138"
      id="text10880"
      sodipodi:linespacing="104%"><tspan
        sodipodi:role="line"
-       id="tspan10882"
-       x="157.42937"
+       x="189.4294"
        y="112.87138"
-       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">Resistors</tspan><tspan
-       id="tspan10884"
+       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
+       id="tspan18974">Resistor (560Ω)</tspan><tspan
        sodipodi:role="line"
-       x="157.42937"
-       y="125.44364"
-       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">(560<tspan
-   id="tspan10888"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times;-inkscape-font-specification:Times">Ω</tspan>)</tspan></text>
+       x="189.4294"
+       y="124.51939"
+       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
+       id="tspan18978">Green-Blue-Purple-Gold</tspan></text>
   <path
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 130.16712,117.89917 109.7072,114.18979"
+     d="M 125.46965,117.89917 109.7072,114.18979"
      id="path10890"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
