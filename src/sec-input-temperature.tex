@@ -21,17 +21,20 @@ in the diagram). If you point the flat end of the sensor to your left,
 then the top pin connects to power (the red wire), the middle pin is the
 signal, and the bottom pin connects to ground (the black wire).
 
-The example code will print the analog reading from the temperature
-sensor on the serial monitor, similar to how we printed the analog
-reading from the grayscale sensor in Lab~2. After setting up the circuit
-and programming the Arduino, open the serial monitor and check the
-reported room temperature in degrees centigrade. Does the reading sound
-right? Experiment with the sensor by changing the ambient temperature
-(e.g., using a hair dryer) and see how warm or cool you can make it!
+Since the analog reading from the temperature sensor is a digital value
+between 0 and 1023, the example code scales this value to a range
+between \wu{0--5}{V}, converts voltage to temperature, and then prints
+the temperature in centigrade (Celsius) on the serial monitor, similar
+to how we printed the analog reading from the grayscale sensor in Lab~2.
+After setting up the circuit and programming the Arduino, open the
+serial monitor and check the reported room temperature in degrees
+centigrade (Celsius). Does the reading sound right? Experiment with the
+sensor by changing the ambient temperature (e.g., using a hair dryer)
+and see how warm or cool you can make it!
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
-  \vspace{0pt}
+  \vspace{0.6in}
 
   \includegraphics[width=\tw]{input-temperature-annotated.svg.pdf}
 \end{minipage}
@@ -47,7 +50,17 @@ right? Experiment with the sensor by changing the ambient temperature
     }
 
     void loop() {
-      float temperature = getTemperature( pin_temperature );
+
+      // Read temperature sensor and convert from a 0 to 1023 digital
+      // range to 0 to 5 volts.
+
+      float voltage = analogRead( pin ) * .004882814;
+
+      // Convert from 10 mV per degree with 500 mV offset to degrees
+      // Celsius (i.e., temperature = (voltage-500mV) * 100).
+
+      float temperature = (voltage - .5) * 100;
+
       Serial.println( temperature );
       delay(1000);
     }
