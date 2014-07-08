@@ -12,8 +12,6 @@ using an RGB LED (three LEDs in a single housing), where RGB stands for 'red',
 desire through color mixing. Do you remember color wheels from
 elementary school?
 
-% TODO: add in color table here
-
 A sample circuit and Arduino code is shown below to get you started.
 Three leads of the RGB LED are set by digital output Arduino pins
 corresponding to 'red', 'green', and 'blue'; the longest lead of the RGB
@@ -23,12 +21,29 @@ check to make sure the RGB LED lights up violet. You can then
 experiment with other colors by choosing your own RGB values, and if you
 like, you can also try to make the LED blink or change colors in time.
 
-\begin{table}[h]
-  \input{tbl-rgb-colors}
-\end{table}
-
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
+  \vspace{0pt}
+
+  \centering
+    \begin{tabular}{l|l}
+    \BF{Color} & \BF{RGB values} \\\hline
+    RED     & (255, 0, 0) \\
+    ORANGE  & (83, 4, 0) \\
+    YELLOW  & (255, 255, 0) \\
+    GREEN   & (0, 255, 0) \\
+    BLUE    & (0, 0, 255) \\
+    INDIGO  & (4, 0, 19) \\
+    VIOLET  & (23, 0, 22) \\
+    CYAN    & (0, 255, 255) \\
+    MAGENTA & (255, 0, 255) \\
+    WHITE   & (255, 255, 255) \\
+    BLACK   & (0, 0, 0) \\
+    PINK    & (158, 4, 79) \\
+    \end{tabular}
+    \caption{\textbf{RGB Values For Common Colors}}
+  \centering
+
   \vspace{0pt}
 
   \includegraphics[width=\tw]{output-rgb-annotated.svg.pdf}
