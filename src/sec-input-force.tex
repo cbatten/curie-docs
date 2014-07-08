@@ -19,15 +19,17 @@ way, as we apply more pressure to the sensor, the voltage the Arduino
 reads decreases.
 
 % FIXME: replace 'ohm' with symbol..
+
 A sample circuit and Arduino code is shown below to get you started.
 The voltage divider circuit is formed by the force sensor and the
 \wu{10}{kohm} resistor, and the Arduino reads the voltage from one end
 of the resistor to ground. The example code will print the analog
-reading from the sensor on the serial monitor, similar to how we printed
-the analog reading from the grayscale sensor in Lab~2. After setting up
-the circuit and programming the Arduino, open the serial monitor and
-check the value the force sensor is detecting. Then try squeezing the
-pressure pad between two fingers and see the reading increase.
+reading from the force sensor on the serial monitor, similar to how we
+printed the analog reading from the grayscale sensor in Lab~2. After
+setting up the circuit and programming the Arduino, open the serial
+monitor and check the value the force sensor is detecting. Then try
+squeezing the pressure pad between two fingers and see the reading
+increase.
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
@@ -47,9 +49,7 @@ pressure pad between two fingers and see the reading increase.
     }
 
     void loop() {
-      // Divide by 4 to scale from a range
-      // of (0-1023) to a range of (0-255).
-      int force = analogRead( pin_force ) / 4;
+      int force = analogRead( pin_force )
 
       Serial.println( force );
       delay(1000);
