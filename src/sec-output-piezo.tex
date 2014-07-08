@@ -108,11 +108,8 @@ different notes across two octaves.
 
       for (int i = 0; i < length; i++) {
         playNote(notes[i], beats[i] * tempo);
+        delay(tempo / 2); // Pause between notes
       }
-
-      // Pause between loops.
-
-      delay(tempo / 2);
 
     }
 
