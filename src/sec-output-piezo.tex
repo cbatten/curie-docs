@@ -14,24 +14,24 @@ times a second to make the note middle A), these clicks produce notes.
 A sample circuit and Arduino code is shown below to get you started.
 Note that the piezo element is powered directly from the Arduino signal
 pin. There is no need for any extra components; with the rectangular
-"TDX" label facing to your left, we directly connect the left lead of the
-piezo element to a digital output PWM pin on the Arduino and the right
-lead to ground.
+"TDX" label facing to your left, we directly connect the left lead of
+the piezo element to a digital output PWM pin on the Arduino and the
+right lead to ground.
 
-The example code has two parts. In the first part, we play a middle A by
-pulsing the piezo element with a square wave at \wu{440}{Hz} -- i.e.,
+The example code has two experiments. In the first, we play a middle A
+by pulsing the piezo element with a square wave at \wu{440}{Hz} -- i.e.,
 \wu{1136}{\textmu{}s} HIGH and \wu{1136}{\textmu{}s} LOW. In the second
-part, we play a tune using the playNote() library function. You can use
-this function by giving it a note name (see the table below for notes)
-and a duration to play the note; the function will play the note using
-the same technique as we saw in part one. After setting up the circuit
-and programming the Arduino, listen to the notes produced by the piezo
-element and see if it makes sense. You can then experiment with other
-notes or tunes by choosing your own notes! The table below lists the
-frequencies, periods, and the time to pulse the piezo element to play
-different notes across two octaves.
+experiment, we play a tune using the playNote() library function. You
+can use this function by giving it a note name (see the table below for
+notes) and a duration to play the note; the function will play the note
+using the same technique we saw in the first experiment. After setting
+up the circuit and programming the Arduino, listen to the notes produced
+by the piezo element and see if it makes sense. You can then experiment
+with other notes or tunes by choosing your own notes! The table below
+lists the frequencies, periods, and the time to pulse the piezo element
+to play different notes across two octaves.
 
-%FIXME: The code needs to be modified to choose between parts 1 and 2.
+%FIXME: The code needs to be modified to choose between experiments 1 and 2.
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
@@ -65,7 +65,7 @@ different notes across two octaves.
 \begin{minipage}[t]{0.49\tw}
   \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
-    // Part 1: Playing a note
+    // Experiment 1: Playing a note
 
     int pin_piezo = 6;
 
@@ -89,7 +89,7 @@ different notes across two octaves.
   \end{Verbatim}
   \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
-    // Part 2: Playing a tune
+    // Experiment 2: Playing a tune
 
     int pin_piezo = 6;
 
@@ -114,7 +114,7 @@ different notes across two octaves.
       // Play tune using the playNote() function.
 
       for (int i = 0; i < length; i++) {
-        playNote(notes[i], beats[i] * tempo);
+        playNote(pin_piezo, notes[i], beats[i] * tempo);
         delay(tempo / 2); // Pause between notes
       }
 

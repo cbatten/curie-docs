@@ -58,7 +58,8 @@ and see how warm or cool you can make it!
       // Read temperature sensor and convert from
       // a 0 to 1023 digital range to 0 to 5 volts.
 
-      float voltage = analogRead( pin ) * .004882814;
+      float voltage =
+        analogRead( pin_temperature ) * .004882814;
 
       // Convert from 10 mV per degree with 500
       // mV offset to degrees Celsius (i.e.,
