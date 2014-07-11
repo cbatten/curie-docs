@@ -67,9 +67,7 @@ to play different notes across two octaves.
   \begin{Verbatim}[gobble=3,fontsize=\small]
     // Experiment 1: Playing a note
 
-    #include <Curie.h>
-    #include <Wire.h>
-    #include <SPI.h>
+    #include <Piezo.h>
 
     int pin_piezo = 6;
 
@@ -95,9 +93,7 @@ to play different notes across two octaves.
   \begin{Verbatim}[gobble=3,fontsize=\small]
     // Experiment 2: Playing a tune
 
-    #include <Curie.h>
-    #include <Wire.h>
-    #include <SPI.h>
+    #include <Piezo.h>
 
     int pin_piezo = 6;
 
@@ -113,11 +109,13 @@ to play different notes across two octaves.
       // rest. The beats array contains how
       // many beats each note should take.
 
-      int length   = 15;
-      char notes[] = "ccggaagffeeddc ";
-      int beats[]  = { 1, 1, 1, 1, 1, 1, 2,
-                       1, 1, 1, 1, 1, 1, 2, 4 };
-      int tempo    = 300;
+      int length   = 30;
+      char notes[] = "ABcGGdcBAAAABcABcGGdcdeefedcdc ";
+      int beats[]  = { 1, 1, 6, 1, 1, 6, 1, 1,
+                       1, 1, 2, 1, 2, 6,
+                       1, 1, 6, 1, 1, 6, 1, 1,
+                       1, 2, 2, 1, 1, 1, 1, 4, 4 };
+      int tempo    = 100;
 
       // Play tune using the playNote() function.
 
