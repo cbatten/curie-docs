@@ -52,10 +52,10 @@ receiving the signal!
 \begin{minipage}[t]{0.49\tw}
   \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
-    int pin_RF_A = A3;
-    int pin_RF_B = A2;
-    int pin_RF_C = A1;
-    int pin_RF_D = A0;
+    int pin_RF_A = 3;
+    int pin_RF_B = 6;
+    int pin_RF_C = 7;
+    int pin_RF_D = 10;
 
     void setup() {
       pinMode( pin_RF_A, INPUT );
@@ -69,10 +69,10 @@ receiving the signal!
 
       // Read RF input on each pin
 
-      int A = analogRead( pin_RF_A );
-      int B = analogRead( pin_RF_B );
-      int C = analogRead( pin_RF_C );
-      int D = analogRead( pin_RF_D );
+      int A = digitalRead( pin_RF_A );
+      int B = digitalRead( pin_RF_B );
+      int C = digitalRead( pin_RF_C );
+      int D = digitalRead( pin_RF_D );
 
       // Print the letter if the input is detected.
       // Otherwise, print '-' if nothing is detected.

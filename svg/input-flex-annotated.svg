@@ -14,8 +14,8 @@
    x="0in"
    y="0in"
    width="320"
-   height="720"
-   viewBox="0 0 256.00014 575.99982"
+   height="260"
+   viewBox="0 0 256.00014 207.99993"
    id="svg18980"
    inkscape:version="0.48.4 r9943 custom"
    sodipodi:docname="input-flex-annotated.svg">
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,6 +57,18 @@
          offset="0"
          id="stop10449" />
     </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7406">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.60000074;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect7408"
+         width="40.72023"
+         height="137.30026"
+         x="-32.289932"
+         y="-3.6544676"
+         transform="matrix(0,-1,1,0,0,0)" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -71,9 +83,9 @@
      inkscape:window-height="691"
      id="namedview21632"
      showgrid="false"
-     inkscape:zoom="0.76335602"
-     inkscape:cx="409.70752"
-     inkscape:cy="576.90361"
+     inkscape:zoom="1.5324087"
+     inkscape:cx="189.4612"
+     inkscape:cy="122.37691"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="0"
@@ -81,7 +93,7 @@
   <g
      partID="71660"
      id="g2990"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <g
        transform="translate(8.26666,15.8497)"
        id="g2992">
@@ -173,6 +185,7 @@
        style="fill:#383838" />
   </g>
 </g>
+
 
 
 7   <g
@@ -11692,8 +11705,9 @@
     </g>
   </g>
   <g
-     transform="matrix(0,1,-1,0,86.583571,76.394267)"
-     id="g21529">
+     transform="matrix(0,1,-1,0,86.583571,73.194286)"
+     id="g21529"
+     clip-path="url(#clipPath7406)">
     <g
        id="g21531">
       <rect
@@ -11940,29 +11954,29 @@
          id="rect21598"
          style="fill:#8c8c8c" />
       <polygon
-         points="30.146,9.74999 11.784,9.74999 10.277,8.13599 10.277,6.32199 11.784,4.71 30.146,4.71 "
+         points="11.784,4.71 30.146,4.71 30.146,9.74999 11.784,9.74999 10.277,8.13599 10.277,6.32199 "
          id="polygon23"
          style="fill:#8c8c8c" />
       <polygon
-         points="30.312,16.948 11.796,16.948 10.277,15.333 10.277,13.521 11.796,11.909 30.312,11.909 "
+         points="11.796,11.909 30.312,11.909 30.312,16.948 11.796,16.948 10.277,15.333 10.277,13.521 "
          id="polygon25"
          style="fill:#8c8c8c" />
     </g>
   </g>
   <path
-     d="m 79.358251,63.383365 0.0863,-0.4195"
+     d="m 79.358251,60.183387 0.0863,-0.41951"
      id="path5522"
      inkscape:connector-curvature="0"
      style="fill:none;stroke:#8c8c8c;stroke-width:2.09519768;stroke-linecap:round;stroke-linejoin:round" />
   <path
-     d="m 106.06803,63.383365 2.1764,-0.4195"
+     d="m 106.06803,60.183387 2.1764,-0.41951"
      id="path5524"
      inkscape:connector-curvature="0"
      style="fill:none;stroke:#8c8c8c;stroke-width:2.09519768;stroke-linecap:round;stroke-linejoin:round" />
   <g
      partID="1491850"
      id="g5526"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <g
        transform="translate(67.4048,55.8364)"
        id="g5528">
@@ -12080,7 +12094,7 @@
   <g
      partID="71680"
      id="g5549"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <line
        x1="3.2"
        y1="30.249701"
@@ -12099,7 +12113,7 @@
   <g
      partID="71710"
      id="g5555"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <line
        x1="3.46666"
        y1="23.0497"
@@ -12118,7 +12132,7 @@
   <g
      partID="71970"
      id="g5561"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <line
        x1="62.386398"
        y1="51.8493"
@@ -12137,7 +12151,7 @@
   <g
      partID="72000"
      id="g5567"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <line
        x1="98.3862"
        y1="51.8493"
@@ -12156,7 +12170,7 @@
   <g
      partID="72070"
      id="g5573"
-     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,3.9146356)">
+     transform="matrix(0.99999887,0,0,0.99999887,9.8583205,0.7146606)">
     <line
        x1="69.319"
        y1="3.2096601"
@@ -12176,50 +12190,50 @@
      xml:space="preserve"
      style="font-size:11.20000648px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
      x="131.53105"
-     y="14.875451"
+     y="11.675428"
      id="text9921"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan9923"
        x="131.53105"
-       y="14.875451">To Analog Input 0</tspan></text>
+       y="11.675428">To Analog Input 0</tspan></text>
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.60000074;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
      id="rect9925"
      width="71.566956"
      height="18.511566"
      x="110.15098"
-     y="124.44051" />
+     y="121.24055" />
   <text
      xml:space="preserve"
      style="font-size:11.20000648px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
      x="145.77812"
-     y="137.61026"
+     y="134.41032"
      id="text11939"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan11941"
        x="145.77812"
-       y="137.61026">Flex Sensor</tspan></text>
+       y="134.41032">Flex Sensor</tspan></text>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 109.37968,131.8604 90.096791,128.00384"
+     d="M 109.37968,128.66042 90.096791,124.80386"
      id="path11943"
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
      style="font-size:11.20000648px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-     x="-80.490395"
+     x="-77.290398"
      y="11.914983"
      id="text11945"
      sodipodi:linespacing="125%"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan11947"
-       x="-80.490395"
+       x="-77.290398"
        y="11.914983">Power / Ground</tspan></text>
   <rect
-     y="84.440498"
+     y="81.240501"
      x="108.55099"
      height="30.771303"
      width="139.43336"
@@ -12228,22 +12242,22 @@
   <text
      sodipodi:linespacing="125%"
      id="text14282"
-     y="96.010216"
+     y="92.810257"
      x="179.3781"
      style="font-size:11.20000648px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
-       y="96.010216"
+       y="92.810257"
        x="179.3781"
        id="tspan14284"
        sodipodi:role="line">Resistor (10kΩ)</tspan><tspan
-       y="110.01022"
+       y="106.81026"
        x="179.3781"
        sodipodi:role="line"
        id="tspan16006">Brown-Black-Orange-Gold</tspan></text>
   <path
      inkscape:connector-curvature="0"
      id="path14286"
-     d="M 116.30365,84.649967 103.15063,70.285045"
+     d="M 116.30365,81.449986 103.15063,67.085056"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      sodipodi:nodetypes="cc" />
 </svg>

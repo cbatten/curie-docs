@@ -13,11 +13,11 @@
    x="0in"
    y="0in"
    width="320"
-   height="215"
-   viewBox="0 0 256.00014 172.00016"
+   height="210"
+   viewBox="0 0 256.00014 168.00015"
    id="svg2988"
    inkscape:version="0.48.4 r9943 custom"
-   sodipodi:docname="input-accel.svg">
+   sodipodi:docname="input-accel-annotated.svg">
   <metadata
      id="metadata5687">
     <rdf:RDF>
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,7 +71,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="691"
+     inkscape:window-height="686"
      id="namedview5683"
      showgrid="false"
      inkscape:zoom="1.0371899"
@@ -84,7 +84,7 @@
   <g
      partID="71660"
      id="g2990"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <g
        transform="translate(8.26666,15.4249)"
        id="g2992">
@@ -176,6 +176,7 @@
        style="fill:#383838" />
   </g>
 </g>
+
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
    id="g3011">
@@ -11695,7 +11696,7 @@
   <g
      partID="1517970"
      id="g5507"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <g
        transform="translate(93.0645,131.549)"
        id="g5509">
@@ -12078,6 +12079,7 @@
    id="tspan14395"
    font-size="0">Vin</text>
 
+
 </g>              </g>
               <g
                  transform="matrix(0,-1,1,0,0,0)"
@@ -12093,6 +12095,7 @@
    style="font-size:0px;text-align:start;text-anchor:start"
    id="tspan14399"
    font-size="0">3Vo</text>
+
 
 </g>              </g>
               <g
@@ -12110,6 +12113,7 @@
    id="tspan14403"
    font-size="0">GND</text>
 
+
 </g>              </g>
               <g
                  transform="matrix(0,-1,1,0,0,0)"
@@ -12125,6 +12129,7 @@
    style="font-size:0px;text-align:start;text-anchor:start"
    id="tspan14407"
    font-size="0">Zout</text>
+
 
 </g>              </g>
               <g
@@ -12142,6 +12147,7 @@
    id="tspan14411"
    font-size="0">Yout</text>
 
+
 </g>              </g>
               <g
                  transform="matrix(0,-1,1,0,0,0)"
@@ -12158,6 +12164,7 @@
    id="tspan14415"
    font-size="0">Xout</text>
 
+
 </g>              </g>
               <g
                  transform="matrix(0,-1,1,0,0,0)"
@@ -12173,6 +12180,7 @@
    style="font-size:0px;text-align:start;text-anchor:start"
    id="tspan14419"
    font-size="0">Test</text>
+
 
 </g>              </g>
               <g
@@ -12225,6 +12233,7 @@
    font-size="0"
    style="font-size:0px;fill:#ffffff;fill-opacity:1;stroke:none">X</text>
 
+
 </g>              <g
                  style="font-size:0px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA"
                  id="text14469"
@@ -12236,6 +12245,7 @@
    id="tspan14471"
    font-size="0"
    style="font-size:0px;fill:#ffffff">Y</text>
+
 
 </g>              <g
                  style="font-size:0px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA"
@@ -12249,6 +12259,7 @@
    font-size="0"
    style="font-size:0px;fill:#ffffff">Z</text>
 
+
 </g>              <g
                  style="font-size:0px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA"
                  id="text14483"
@@ -12260,6 +12271,7 @@
    style="font-size:0px;font-weight:normal;fill:#ffffff;-inkscape-font-specification:OCRA"
    id="tspan14485"
    font-size="0">ADXL335</text>
+
 
 </g>              <g
                  style="font-size:0px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA"
@@ -12273,6 +12285,7 @@
    font-size="0"
    style="font-size:0px;fill:#ffffff">v2</text>
 
+
 </g>            </g>
           </g>
         </g>
@@ -12282,7 +12295,7 @@
   <g
      partID="71680"
      id="g5641"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="3.2"
        y1="29.8249"
@@ -12301,7 +12314,7 @@
   <g
      partID="71710"
      id="g5647"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="3.46666"
        y1="22.624901"
@@ -12320,7 +12333,7 @@
   <g
      partID="1518240"
      id="g5653"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="83.986298"
        y1="51.424599"
@@ -12339,7 +12352,7 @@
   <g
      partID="1518250"
      id="g5659"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="69.586304"
        y1="51.424599"
@@ -12358,7 +12371,7 @@
   <g
      partID="1518280"
      id="g5665"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="55.016998"
        y1="3.2107601"
@@ -12377,7 +12390,7 @@
   <g
      partID="1518270"
      id="g5671"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="62.091099"
        y1="3.2107601"
@@ -12396,7 +12409,7 @@
   <g
      partID="1518260"
      id="g5677"
-     transform="translate(9.6000091,0.57616029)">
+     transform="translate(9.6000091,-0.22384033)">
     <line
        x1="47.942902"
        y1="3.2107601"
@@ -12416,17 +12429,17 @@
      sodipodi:linespacing="104%"
      id="text28669"
      y="12.939395"
-     x="-35.975418"
+     x="-35.175419"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:end;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
        y="12.939395"
-       x="-35.975414"
+       x="-35.175415"
        sodipodi:role="line"
        id="tspan28677">Power/ Ground</tspan></text>
   <rect
-     y="4.9860363"
+     y="4.1860352"
      x="127.10676"
      height="18.118988"
      width="92.297371"
@@ -12435,12 +12448,12 @@
   <text
      sodipodi:linespacing="104%"
      id="text14585"
-     y="17.279955"
+     y="16.479954"
      x="173.45468"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="17.279955"
+       y="16.479954"
        x="173.45468"
        id="tspan14587"
        sodipodi:role="line">To Analog Pin 0</tspan></text>
@@ -12448,19 +12461,19 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path14601"
-     d="M 127.15359,13.344037 58.389246,12.572721"
+     d="M 127.15359,12.544036 58.389246,11.77272"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
      sodipodi:nodetypes="cc"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 127.15359,35.74405 65.790012,29.573524"
+     d="M 127.15359,34.944049 65.790012,28.773523"
      id="path14603"
      inkscape:connector-curvature="0" />
   <path
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path14605"
-     d="M 127.69727,55.795326 73.345703,44.213996"
+     d="M 127.69727,54.995325 73.345703,43.413995"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <rect
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -12468,21 +12481,21 @@
      width="92.297371"
      height="18.118988"
      x="127.10676"
-     y="27.386059" />
+     y="26.58606" />
   <text
      xml:space="preserve"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      x="173.45468"
-     y="39.679977"
+     y="38.879978"
      id="text14607"
      sodipodi:linespacing="104%"><tspan
        sodipodi:role="line"
        id="tspan14609"
        x="173.45468"
-       y="39.679977"
+       y="38.879978"
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Analog Pin 1</tspan></text>
   <rect
-     y="49.786079"
+     y="48.98608"
      x="127.10676"
      height="18.118988"
      width="92.297371"
@@ -12491,12 +12504,12 @@
   <text
      sodipodi:linespacing="104%"
      id="text14611"
-     y="62.080009"
+     y="61.28001"
      x="173.45468"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="62.080009"
+       y="61.28001"
        x="173.45468"
        id="tspan14613"
        sodipodi:role="line">To Analog Pin 2</tspan></text>
@@ -12506,21 +12519,21 @@
      width="87.617455"
      height="33.591686"
      x="142.30693"
-     y="94.58606" />
+     y="93.786049" />
   <text
      sodipodi:linespacing="104%"
      id="text14621"
-     y="108.3532"
+     y="107.55319"
      x="187.89496"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="108.3532"
+       y="107.55319"
        x="187.89496"
        sodipodi:role="line"
        id="tspan14623">Accelerometer</tspan><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="120.00121"
+       y="119.2012"
        x="187.89496"
        sodipodi:role="line"
        id="tspan14625">Breakout Board</tspan></text>
@@ -12528,6 +12541,6 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path14627"
-     d="M 142.67379,107.02246 102.61382,99.790579"
+     d="M 142.67379,106.22245 102.61382,98.990579"
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
 </svg>

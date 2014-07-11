@@ -17,7 +17,7 @@
    viewBox="0 0 256.00013 171.9995"
    id="svg15390"
    inkscape:version="0.48.4 r9943 custom"
-   sodipodi:docname="input-rf.svg">
+   sodipodi:docname="input-rf-annotated.svg">
   <metadata
      id="metadata17961">
     <rdf:RDF>
@@ -70,7 +70,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="896"
-     inkscape:window-height="691"
+     inkscape:window-height="686"
      id="namedview17957"
      showgrid="false"
      inkscape:zoom="1.6960735"
@@ -175,6 +175,7 @@
        style="fill:#383838" />
   </g>
 </g>
+
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
    id="g15413">
@@ -11874,7 +11875,7 @@
        y="41.669617"
        x="196.9393"
        id="tspan14587"
-       sodipodi:role="line">To Analog Pin 1</tspan></text>
+       sodipodi:role="line">To Digital Pin 1</tspan></text>
   <path
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
@@ -11911,7 +11912,7 @@
        id="tspan14609"
        x="196.9393"
        y="64.069649"
-       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Analog Pin 2</tspan></text>
+       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Digital Pin 2</tspan></text>
   <rect
      y="74.175743"
      x="150.59134"
@@ -11930,7 +11931,7 @@
        y="86.469643"
        x="196.9393"
        id="tspan14613"
-       sodipodi:role="line">To Analog Pin 3</tspan></text>
+       sodipodi:role="line">To Digital Pin 3</tspan></text>
   <rect
      style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000169;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect14619"
@@ -12173,7 +12174,7 @@
        id="tspan29269"
        x="196.9393"
        y="19.269606"
-       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Analog Pin 0</tspan></text>
+       style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Digital Pin 0</tspan></text>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="M 150.63816,16.933673 73.87381,12.962351"
