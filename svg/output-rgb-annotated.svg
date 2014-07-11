@@ -190,6 +190,7 @@
 
 
 
+
 7   <g
    transform="translate(-0.199995,-3.83215e-4)"
    id="g3011">
@@ -12469,7 +12470,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
-     y="39.623516"
+     y="62.023533"
      x="126.24104"
      height="18.118988"
      width="119.35139"
@@ -12478,12 +12479,12 @@
   <text
      sodipodi:linespacing="104%"
      id="text5211"
-     y="51.917435"
+     y="74.317436"
      x="186.98929"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      xml:space="preserve"><tspan
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino"
-       y="51.917435"
+       y="74.317436"
        x="186.98929"
        id="tspan5213"
        sodipodi:role="line">To Digital Pin 6 (blue)</tspan></text>
@@ -12492,19 +12493,19 @@
      id="rect5215"
      width="124.83177"
      height="18.118988"
-     x="126.24103"
-     y="62.023533" />
+     x="126.24104"
+     y="39.623516" />
   <text
      xml:space="preserve"
      style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80000091;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
      x="190.1893"
-     y="74.317436"
+     y="51.917419"
      id="text5217"
      sodipodi:linespacing="104%"><tspan
        sodipodi:role="line"
        id="tspan5219"
        x="190.1893"
-       y="74.317436"
+       y="51.917419"
        style="font-size:11.20001316px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:103.99999619%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Palatino;-inkscape-font-specification:Palatino">To Digital Pin 5 (green)</tspan></text>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.60000086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
