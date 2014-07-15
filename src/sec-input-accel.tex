@@ -7,25 +7,26 @@
 \label{sec-input-accel}
 
 This input module enables your IoT device to sense physical acceleration
--- perfect for applications such as tilt-sensing, motion, shock, and/or
-vibration. The ADXL335 3-axis accelerometer you will use is a
+-- perfect for applications requiring tilt-sensing, motion, shock,
+vibration, etc. The ADXL335 3-axis accelerometer you will use is a
 micro-electro-mechanical system (MEMS) device: a device that combines
 tightly-coupled electrical and mechanical systems on a very small scale
 (micro-meters!). The accelerometer works by measuring the capacitance
 between fixed plates and a tiny structure suspended in mid-air by tiny
-springs. As the device tilts or experiences motion in the X, Y, and/or Z
-axes, the suspended structure deflects, the capacitance on each axis
-changes, and this converts to an output voltage that is proportional to
-the acceleration on that axis, which is then sensed by the Arduino.
+springs. As the device experiences acceleration in the X, Y, and/or Z
+axes, the suspended structure deflects, changing the capacitance along
+each axis. Each capacitance converts to an output voltage, proportional
+to the acceleration on that axis, which can then be sensed by the
+Arduino.
 
 A sample circuit and Arduino code is shown below to get you started.
 The example code will print calibrated accelerometer readings for each
 axis on the serial monitor, similar to how we printed the analog reading
 from the grayscale sensor in Lab~2. After setting up the circuit and
 programming the Arduino, open the serial monitor, place your device on
-the table, and check the values the accelerometer is sensing -- these
-should be close to (x = 0, y = 0, z = 0). Then pick up the device and tilt
-it or shake it. See how the values change along the three axes!
+the table, and check the values the accelerometer is sensing. These
+should be close to (x = 0, y = 0, z = 0). Then pick up the device and
+tilt it or shake it. See how the values change along the three axes!
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}

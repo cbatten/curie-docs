@@ -6,24 +6,22 @@
 \section{Temperature Input Module}
 \label{sec-input-temperature}
 
-\IT{Example Applications: environmental control systems, thermal protection,
-industrial process control, fire alarms, power system monitors, cpu
-thermal management.}
-
 This input module enables your IoT device to sense the temperature of
-the environment using an easy-to-use temperature sensor. The TMP36
-temperature sensor contains an integrated circuit with a simple
-interface of three pins: power, signal, and ground. The signal pin's
-voltage rises and falls depending on the ambient temperature at
-\wu{10}{mV} per degree centigrade (Celsius).
+the environment using an easy-to-use temperature sensor. This may be
+useful in environmental control systems, thermal protection, industrial
+process control, fire alarms, power system monitors, cpu thermal
+management, etc. The TMP36 temperature sensor contains an integrated
+circuit with a single signal output lead. This signal's voltage rises
+and falls, depending on the ambient temperature, at \wu{10}{mV} per
+degree centigrade (Celsius).
 
 A sample circuit and Arduino code is shown below to get you started.
 There is no need for any extra components; we directly connect the
-middle pin on the temperature sensor to an analog input on the Arduino.
+middle lead on the temperature sensor to an analog input on the Arduino.
 Make sure the sensor's "flat end" is facing the correct direction (shown
 in the diagram). If you point the flat end of the sensor to your left,
-then the top pin connects to power (the red wire), the middle pin is the
-signal, and the bottom pin connects to ground (the black wire).
+the top lead connects to power (the red wire), the middle lead is the
+signal, and the bottom lead connects to ground (the black wire).
 
 Since the analog reading from the temperature sensor is a digital value
 between 0 and 1023, the example code scales this value to a range
@@ -33,7 +31,7 @@ to how we printed the analog reading from the grayscale sensor in Lab~2.
 After setting up the circuit and programming the Arduino, open the
 serial monitor and check the reported room temperature in degrees
 centigrade (Celsius). Does the reading sound right? Experiment with the
-sensor by changing the ambient temperature (e.g., using a hair dryer)
+sensor by changing the ambient temperature (e.g., with a hair dryer)
 and see how warm or cool you can make it!
 
 \vspace{0.1in}

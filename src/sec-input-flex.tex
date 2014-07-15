@@ -7,26 +7,30 @@
 \label{sec-input-flex}
 
 This input module enables your IoT device to sense the flexing of a
-\wu{6}{cm} strip. The flex sensor is a resistor with a resistance that
-varies depending on how much the strip is flexed (e.g., by bending it);
-the resistance is higher when flexed in one direction and lower when
-flexed in the other. The Arduino cannot directly sense resistance, but
-we can set up a voltage divider so that the Arduino can sense voltage
-instead. This way, as we flex the sensor, the voltage the Arduino reads
-changes accordingly.
-
-% FIXME: replace 'ohm' with symbol..
+\wu{6}{cm} strip. This may be useful in medical devices, physical
+therapy, stress relief technology, virtual motion, computer peripherals,
+etc. The flex sensor is a variable resistor whose resistance depends on
+how much the strip is flexed (i.e., by bending it); the resistance is
+higher when flexed in one direction and lower when flexed in the other.
+The Arduino cannot directly sense resistance, but it can sense an analog
+input voltage. We will use a simple circuit called a voltage divider so
+that the voltage across the flex sensor is proportional to the
+resistance.
 
 A sample circuit and Arduino code is shown below to get you started.
-The voltage divider circuit is formed by the flex sensor and the
-\wu{10}{kohm} resistor, and the Arduino reads the voltage from one end
-of the resistor to ground. The example code will print the analog
-reading from the flex sensor on the serial monitor, similar to how we
-printed the analog reading from the grayscale sensor in Lab~2. After
-setting up the circuit and programming the Arduino, open the serial
-monitor and check the value the flex sensor is detecting. Then try
-flexing the sensor strip in either direction and see the reading
-increase and decrease accordingly.
+The circuit places a \wu{10}{k$\Omega$} resistor in series with the flex
+sensor so that voltage is divided between the two components. A
+\wu{10}{k$\Omega$} resistor has brown-black-orange bands. We use a wire
+to connect the node in between the resistor and the flex sensor to an
+analog input of the Arduino so that the Arduino can read the voltage
+from one end of the \wu{10}{k$\Omega$} resistor to ground. The example
+code will print the analog reading from the flex sensor on the serial
+monitor, similar to how we printed the analog reading from the grayscale
+sensor in Lab~2. After setting up the circuit and programming the
+Arduino, open the serial monitor and check what the sensor is reporting
+regarding how much the strip is flexed. Try flexing the sensor strip in
+one direction. Does the reading increase or decrease? Try flexing the
+sensor strip in the other direction. Can you explain this behavior?
 
 \vspace{0.1in}
 \begin{minipage}[t]{0.49\tw}
