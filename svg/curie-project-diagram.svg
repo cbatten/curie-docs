@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="715"
+   height="290"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   version="1.0"
+   sodipodi:docname="curie-project-diagram.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/Users/cbatten/work/curie/www/curie-project-diagram.png"
+   inkscape:export-xdpi="65.111115"
+   inkscape:export-ydpi="65.111115">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="1"
+     objecttolerance="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4727273"
+     inkscape:cx="269.13603"
+     inkscape:cy="155"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:object-paths="false"
+     inkscape:grid-bbox="false"
+     inkscape:grid-points="true"
+     inkscape:guide-bbox="true"
+     width="900px"
+     height="700px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="2300"
+     inkscape:window-height="1374"
+     inkscape:window-x="100"
+     inkscape:window-y="3"
+     showguides="true"
+     inkscape:window-maximized="0"
+     inkscape:object-nodes="true"
+     inkscape:snap-to-guides="false">
+    <inkscape:grid
+       enabled="true"
+       visible="true"
+       empspacing="5"
+       empopacity="0.4"
+       opacity="0.2"
+       empcolor="#0000ff"
+       color="#0000ff"
+       spacingy="10px"
+       spacingx="10px"
+       originy="0px"
+       originx="0px"
+       type="xygrid"
+       id="GridFromPre046Settings"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path8724"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8,0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3657"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:perspective
+       id="perspective7"
+       inkscape:persp3d-origin="450 : 233.33333 : 1"
+       inkscape:vp_z="900 : 350 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 350 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       style="overflow:visible"
+       id="TriangleOutLw"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutLw">
+      <path
+         transform="scale(0.8,0.8)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path4295"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInM-0S"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM-0S">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.4,-0.4)"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path37261" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInM-0T"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM-0T">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.4,-0.4)"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path37255" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInM-0r"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM-0r">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.4,-0.4)"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path37258" />
+    </marker>
+    <marker
+       inkscape:stockid="marker9805j"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9805j"
+       style="overflow:visible">
+      <path
+         id="path34836"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="marker9805j"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3831"
+       style="overflow:visible">
+      <path
+         id="path3833"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="marker9805j"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3835"
+       style="overflow:visible">
+      <path
+         id="path3837"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#2b5400;fill-rule:evenodd;stroke:#2b5400;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutRed"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutRed">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill:#b01818;fill-rule:evenodd;stroke:#b01818;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path6882"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInRed"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInRed"
+       style="overflow:visible">
+      <path
+         id="path5199"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#b01818;fill-rule:evenodd;stroke:#b01818;stroke-width:1pt;marker-start:none"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-49,-509)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4017"
+       width="192.22446"
+       height="60.669922"
+       x="546.77551"
+       y="623.33008"
+       rx="5.8289585"
+       ry="5" />
+    <g
+       id="g27204"
+       transform="matrix(0.69857045,0,0,0.7394226,71.70778,182.12363)"
+       style="fill:#e8f6ff;stroke:#004455;stroke-width:2.78277802;stroke-miterlimit:4;stroke-dasharray:none;display:inline">
+      <path
+         d="m 343.68248,522.91544 0,0 c -2.46542,-18.97302 5.62906,-37.75516 20.84869,-48.37647 15.21961,-10.6213 34.89518,-11.21904 50.67762,-1.53953 l 0,0 c 5.5906,-11.03171 15.82305,-18.64833 27.60226,-20.54601 11.77917,-1.89767 23.72159,2.1465 32.21484,10.90923 l 0,0 c 4.76249,-10.00205 14.11371,-16.72215 24.73539,-17.77566 10.62164,-1.05351 21.01056,3.70867 27.4801,12.59667 l 0,0 c 8.60412,-10.60215 22.29352,-15.06609 35.14471,-11.46025 12.85114,3.60582 22.55591,14.63379 24.91498,28.31203 l 0,0 c 10.54151,3.01106 19.32239,10.66556 24.07392,20.98582 4.75152,10.32029 5.00756,22.29392 0.70196,32.82734 l 0,0 c 10.38037,14.14752 12.80853,32.99891 6.37854,49.51918 -6.43005,16.52027 -20.75238,28.22743 -37.62207,30.75257 -0.1189,15.50486 -8.23907,29.73194 -21.23065,37.19748 -12.99164,7.46558 -28.82593,7.00382 -41.39972,-1.20724 -5.35578,18.56976 -20.43051,32.23321 -38.71137,35.08725 -18.28082,2.854 -36.49054,-5.61301 -46.76193,-21.74304 -12.59054,7.95053 -27.69815,10.24084 -41.91485,6.35425 -14.21671,-3.8866 -26.34494,-13.62269 -33.64884,-27.012 l 0,0 c -12.86597,1.57663 -25.30557,-5.40381 -31.14508,-17.47693 -5.83954,-12.07312 -3.83588,-26.66885 5.01657,-36.54339 l 0,0 c -11.47677,-7.07364 -17.33291,-21.11009 -14.51468,-34.78992 2.81824,-13.67981 13.67224,-23.90309 26.90204,-25.33878 z"
+         id="path27158"
+         inkscape:connector-curvature="0"
+         style="fill:#e8f6ff;fill-opacity:0;fill-rule:nonzero;stroke:#004455;stroke-width:2.78277802;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 331.04079,583.7754 0,0 c 5.41592,3.33807 11.67258,4.8523 17.92993,4.33939 m 8.19577,49.68213 c 2.69089,-0.32975 5.32846,-1.02802 7.84473,-2.07685 m 67.71521,22.73374 c -1.89258,-2.97211 -3.47717,-6.14807 -4.72672,-9.47376 m 90.20328,-3.871 0,0 c 0.97638,-3.38556 1.60907,-6.87 1.88733,-10.39523 m 60.74066,-25.59372 c 0.12665,-16.50733 -8.82672,-31.62159 -23.01422,-38.85079 m 54.25751,-41.41923 c -2.29767,5.62106 -5.80524,10.60742 -10.24774,14.56811 m -14.526,-68.38272 0,0 c 0.39148,2.2699 0.57263,4.57393 0.54101,6.88013 m -60.59967,-23.73123 0,0 c -2.1463,2.64471 -3.91461,5.60014 -5.24975,8.77426 m -46.96628,-3.59642 0,0 c -1.14377,2.40216 -1.9979,4.94407 -2.54264,7.56715 m -57.27536,2.06981 0,0 c 3.33957,2.04819 6.42911,4.51338 9.20075,7.34145 m -80.72611,42.57483 0,0 c 0.33982,2.61497 0.87671,5.19771 1.60569,7.72403"
+         id="path27160"
+         inkscape:connector-curvature="0"
+         style="fill:#e8f6ff;fill-opacity:0;fill-rule:nonzero;stroke:#004455;stroke-width:2.78277802;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 343.68248,522.91544 0,0 c -2.46542,-18.97302 5.62906,-37.75516 20.84869,-48.37647 15.21961,-10.6213 34.89518,-11.21904 50.67762,-1.53953 l 0,0 c 5.5906,-11.03171 15.82305,-18.64833 27.60226,-20.54601 11.77917,-1.89767 23.72159,2.1465 32.21484,10.90923 l 0,0 c 4.76249,-10.00205 14.11371,-16.72215 24.73539,-17.77566 10.62164,-1.05351 21.01056,3.70867 27.4801,12.59667 l 0,0 c 8.60412,-10.60215 22.29352,-15.06609 35.14471,-11.46025 12.85114,3.60582 22.55591,14.63379 24.91498,28.31203 l 0,0 c 10.54151,3.01106 19.32239,10.66556 24.07392,20.98582 4.75152,10.32029 5.00756,22.29392 0.70196,32.82734 l 0,0 c 10.38037,14.14752 12.80853,32.99891 6.37854,49.51918 -6.43005,16.52027 -20.75238,28.22743 -37.62207,30.75257 -0.1189,15.50486 -8.23907,29.73194 -21.23065,37.19748 -12.99164,7.46558 -28.82593,7.00382 -41.39972,-1.20724 -5.35578,18.56976 -20.43051,32.23321 -38.71137,35.08725 -18.28082,2.854 -36.49054,-5.61301 -46.76193,-21.74304 -12.59054,7.95053 -27.69815,10.24084 -41.91485,6.35425 -14.21671,-3.8866 -26.34494,-13.62269 -33.64884,-27.012 l 0,0 c -12.86597,1.57663 -25.30557,-5.40381 -31.14508,-17.47693 -5.83954,-12.07312 -3.83588,-26.66885 5.01657,-36.54339 l 0,0 c -11.47677,-7.07364 -17.33291,-21.11009 -14.51468,-34.78992 2.81824,-13.67981 13.67224,-23.90309 26.90204,-25.33878 z"
+         id="path27162"
+         inkscape:connector-curvature="0"
+         style="fill:#e8f6ff;stroke:#004455;stroke-width:2.78277802;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 331.04079,583.7754 0,0 c 5.41592,3.33807 11.67258,4.8523 17.92993,4.33939 m 8.19577,49.68213 c 2.69089,-0.32975 5.32846,-1.02802 7.84473,-2.07685 m 67.71521,22.73374 c -1.89258,-2.97211 -3.47717,-6.14807 -4.72672,-9.47376 m 90.20328,-3.871 0,0 c 0.97638,-3.38556 1.60907,-6.87 1.88733,-10.39523 m 60.74066,-25.59372 c 0.12665,-16.50733 -8.82672,-31.62159 -23.01422,-38.85079 m 54.25751,-41.41923 c -2.29767,5.62106 -5.80524,10.60742 -10.24774,14.56811 m -14.526,-68.38272 0,0 c 0.39148,2.2699 0.57263,4.57393 0.54101,6.88013 m -60.59967,-23.73123 0,0 c -2.1463,2.64471 -3.91461,5.60014 -5.24975,8.77426 m -46.96628,-3.59642 0,0 c -1.14377,2.40216 -1.9979,4.94407 -2.54264,7.56715 m -57.27536,2.06981 0,0 c 3.33957,2.04819 6.42911,4.51338 9.20075,7.34145 m -80.72611,42.57483 0,0 c 0.33982,2.61497 0.87671,5.19771 1.60569,7.72403"
+         id="path27164"
+         inkscape:connector-curvature="0"
+         style="fill:#e8f6ff;stroke:#004455;stroke-width:2.78277802;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
+       x="399.35464"
+       y="599.89954"
+       id="text27210"
+       sodipodi:linespacing="110%"><tspan
+         id="tspan32095"
+         sodipodi:role="line"
+         x="399.35464"
+         y="599.89954">IoT Cloud</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
+       x="642.75153"
+       y="650.03162"
+       id="text32613"
+       sodipodi:linespacing="110%"><tspan
+         id="tspan32615"
+         sodipodi:role="line"
+         x="642.75153"
+         y="650.03162">IoT Output</tspan><tspan
+         sodipodi:role="line"
+         x="642.75153"
+         y="669.8316"
+         id="tspan32617">Device</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#c51717;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInRed);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 286.77554,548.3301 c -83.72536,-30.23573 -149.52325,0.22603 -135,70"
+       id="path31652"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path33906"
+       d="m 512.44044,548.3301 c 83.72536,-30.23573 149.52325,-9.91837 135,59.8556"
+       style="color:#000000;fill:none;stroke:#c51717;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#TriangleOutRed);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <rect
+       ry="5"
+       rx="5.8289585"
+       y="623.33008"
+       x="56.775543"
+       height="60.669922"
+       width="192.22446"
+       id="rect36063"
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
+       x="152.75154"
+       y="649.90417"
+       id="text36065"
+       sodipodi:linespacing="110%"><tspan
+         id="tspan36067"
+         sodipodi:role="line"
+         x="152.75154"
+         y="649.90417">IoT Input</tspan><tspan
+         sodipodi:role="line"
+         x="152.75154"
+         y="669.70416"
+         id="tspan36069">Device</tspan></text>
+    <path
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker9805j);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 76.77553,753.3301 20,-50"
+       id="path34568"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path36057"
+       d="m 225.8702,753.3301 -20,-50"
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker9805j);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker9805j);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 151.77554,753.3301 0,-50"
+       id="path36059"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="110%"
+       id="text36075"
+       y="774.81104"
+       x="150.64758"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
+       xml:space="preserve"><tspan
+         id="tspan36079"
+         y="774.81104"
+         x="150.64758"
+         sodipodi:role="line">IoT Input Modules</tspan><tspan
+         id="tspan36083"
+         y="794.61102"
+         x="150.64758"
+         sodipodi:role="line">( sensors )</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path36085"
+       d="m 576.77553,743.3301 20,-50"
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInM-0r);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInM-0T);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 725.87019,743.3301 -20,-50"
+       id="path36087"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path36089"
+       d="m 651.77553,743.3301 0,-50"
+       style="color:#000000;fill:#ecffd7;fill-opacity:1;stroke:#2b5400;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInM-0S);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Palatino;-inkscape-font-specification:Palatino"
+       x="650.64758"
+       y="774.81104"
+       id="text36091"
+       sodipodi:linespacing="110%"><tspan
+         sodipodi:role="line"
+         x="650.64758"
+         y="774.81104"
+         id="tspan36093">IoT Output Modules</tspan><tspan
+         sodipodi:role="line"
+         x="650.64758"
+         y="794.61102"
+         id="tspan36095">( displays, actuators )</tspan></text>
+  </g>
+</svg>
