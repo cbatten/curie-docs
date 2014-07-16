@@ -4,14 +4,24 @@
 
 \documentclass{cbxdoc}
 
+\usepackage{titletoc}
+
 \usepackage{svg}
+
+\dottedcontents{section}[2em]{\vspace{0.02in}}{1.5em}{0.7em}
+
+\makeatletter
+\renewcommand\tableofcontents{%
+    \@starttoc{toc}%
+}
+\makeatother
 
 %-------------------------------------------------------------------------
 % Document Parameters
 %-------------------------------------------------------------------------
 
 \title{CURIE Academy, Summer 2014}
-\subtitle{Design Project: Exploring an Internet of Things}
+\subtitle{Design Project Input/Ouput Module Descriptions}
 
 \institution
 {%
@@ -28,6 +38,33 @@
 
 \maketitle
 
+Each IoT design project will involve building an IoT system comprised of
+an IoT input device, IoT cloud, and IoT output device. The IoT input
+devices will have various input modules attached that can sense what is
+going on in the environment (e.g., light, temperature, motion, force,
+current, pulse, liquid) and be able to upload data into the cloud. Each
+IoT output device will be able to download data from the could and will
+have various output modules attached to display data (e.g., LEDs, piezo
+buzzer, mini-printer) or react in some way (e.g., servo, relay for
+controlling appliances). The following diagram illustrates the overall
+approach we will be using in our IoT systems.
+
+\begin{center}
+  \includegraphics[width=0.75\tw]{curie-project-diagram.svg.pdf}
+\end{center}
+
+The rest of this document describes each input/output module and gives a
+simple circuit along with the corresponding code to get you started. You
+will need to work on your own to determine the best way to integrate the
+input/output module with the IoT cloud. You can use Lab 3 as an example.
+The various input and output modules are listed below.
+
+\begin{center}\small
+ \begin{minipage}{0.8\textwidth}
+   \tableofcontents
+ \end{minipage}
+\end{center}
+
 \input{sec-input-light}
 \input{sec-input-ir}
 \input{sec-input-temperature}
@@ -37,7 +74,7 @@
 \input{sec-input-accel}
 \input{sec-input-rf}
 \input{sec-input-power}
-\input{sec-input-heart}
+%\input{sec-input-heart}
 \input{sec-output-rgb}
 \input{sec-output-servo}
 \input{sec-output-piezo}
