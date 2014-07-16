@@ -75,13 +75,13 @@ with drawing moving shapes or even scrolling text!
 
 \end{minipage}
 \newpage
-\begin{minipage}[t]{0.49\tw}
+\begin{minipage}[t]{0.45\tw}
   \vspace{0.0in}
 
   \BF{PIXELS}:
   \vspace{0.1in}
 
-  Use drawPixel( x\_coord, y\_coord, value ) In this example, we draw a
+  Use drawPixel( x\_coord, y\_coord, value ). In this example, we draw a
   pixel at (0, 0), delay \wu{500}{ms}, clear the pixel, and wait another
   \wu{500}{ms}.
 
@@ -98,9 +98,8 @@ with drawing moving shapes or even scrolling text!
   \BF{LINES}:
   \vspace{0.1in}
 
-  Use drawLine( x1\_coordinate, y1\_coordinate, x2\_coordinate,
-  y2\_coordinate, value ) In this example, we draw an X and then clear
-  it.
+  Use drawLine( x1\_coord, y1\_coord, x2\_coord, y2\_coord, value ). In this
+example, we draw an X and then clear it.
 
   \begin{Verbatim}[gobble=3,fontsize=\small]
     void loop() {
@@ -116,17 +115,16 @@ with drawing moving shapes or even scrolling text!
     }
   \end{Verbatim}
 \end{minipage}
-\hspace{0.1in}
+\hspace{0.3in}
 \begin{minipage}[t]{0.49\tw}
   \vspace{0.0in}
 
   \BF{CIRCLES}:
   \vspace{0.1in}
 
-  Use \IT{drawCircle( x\_coordinate, y\_coordinate,
-  radius, value )}. The coordinates are for the center of the circle. In
-  this example we draw a circle and clear it. Use "fillCircle" to draw a
-  filled circle instead.
+  Use \IT{drawCircle( x\_coord, y\_coord, radius, value )}. The coordinates are
+for the center of the circle. In this example we draw a circle and clear it.
+Use "fillCircle" to draw a filled circle instead.
 
   \begin{Verbatim}[gobble=3,fontsize=\small]
     void loop() {
@@ -145,7 +143,7 @@ with drawing moving shapes or even scrolling text!
 
   Use:
   \begin{Verbatim}[gobble=3,fontsize=\small]
-    - matrix.setCursor(x\_coordinate, y\_coordinate)
+    - matrix.setCursor(x\_coord, y\_coord)
     - matrix.print( text\_to\_print )
   \end{Verbatim}
 
