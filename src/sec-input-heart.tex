@@ -46,7 +46,7 @@ serial monitor, use your hand to find your own pulse, and verify that
   \vspace{0.1in}
   \begin{Verbatim}[gobble=3,fontsize=\small]
     int pin_heart = 3;
-    byte oldSample, sample;
+    byte old_sample, sample;
 
     void setup() {
       Serial.begin(9600);
@@ -59,12 +59,16 @@ serial monitor, use your hand to find your own pulse, and verify that
       Serial.println ("Heart beat detected!");
     }
 
+    int heartbeat_count;
+
     void loop() {
       sample = digitalRead(pin_heart);
-      if (sample && (oldSample != sample)) {
-        Serial.println("Heartbeat");
+      if (sample && (old_sample != sample)) {
+        Serial.print("Heartbeat: ");
+        Serial.println( heartbeat_count );
+        heartbeat_count++;
       }
-      oldSample = sample;
+      old_sample = sample;
     }
 
   \end{Verbatim}
